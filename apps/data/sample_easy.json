@@ -1,0 +1,20 @@
+[
+  {
+    "id": "Materials",
+    "cost": 50,
+    "revenue": 0,
+    "deps": []
+  },
+  {
+    "id": "Production",
+    "cost": 30,
+    "revenue": 0,
+    "deps": ["Materials"]
+  },
+  {
+    "id": "Sales",
+    "cost": 10,
+    "revenue": 150,
+    "deps": ["Production"]
+  }
+]

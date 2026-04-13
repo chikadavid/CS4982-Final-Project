@@ -1,0 +1,23 @@
+[
+  {
+    "id": "A",
+    "cost": 150,
+    "revenue": 10,
+    "deps": [],
+    "description": "High cost, low gain"
+  },
+  {
+    "id": "B",
+    "cost": 20,
+    "revenue": 100,
+    "deps": [],
+    "description": "Low cost, high gain - helps cash flow"
+  },
+  {
+    "id": "C",
+    "cost": 50,
+    "revenue": 200,
+    "deps": ["A", "B"],
+    "description": "Final task"
+  }
+]

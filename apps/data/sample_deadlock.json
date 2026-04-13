@@ -1,0 +1,8 @@
+[
+  {
+    "id": "Expensive_Start",
+    "cost": 500,
+    "revenue": 1000,
+    "deps": []
+  }
+]
